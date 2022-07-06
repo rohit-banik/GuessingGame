@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body{
+    background: url('https://wallpaperaccess.com/full/4700205.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    top: 10%;
+}
+
+h1{
+    font-family: 'Titan One', cursive;
+    font-size: 60px;
+}
+
+.input-group{
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffcf4c;
+    width: 500px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.input-group input[type=number]{
+    width: 80%;
+    padding: 20px 50px 20px 50px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    font-family: 'Righteous', cursive;
+}
+
+.input-group input[type=number]::placeholder{
+    font-size: 24px;
+    color: #c4bd5c;
+}
+
+button{
+    margin-top: 30px;
+    padding: 20px 50px;
+    border-radius: 50px;
+    background: black;
+    color: #ffcf4c;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+button:hover{
+    background: #ffcf4c;
+    color: black;
+}
+
+.result{
+    margin-left: auto;
+    margin-right: auto;
+    background: greenyellow;
+    padding: 10px 30px;
+    width: fit-content;
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'IBM Plex Mono', monospace;
+}
